@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-nextjs" mode="merge"/>
+    <filter root="/content/aem-nextjs" mode="merge"/>
+    <filter root="/content/dam/aem-nextjs" mode="merge">
+        <exclude pattern="/content/dam/aem-nextjs(/.*)?"/>
+        <include pattern="/content/dam/aem-nextjs/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-nextjs/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-nextjs" mode="merge"/>
+</workspaceFilter>
